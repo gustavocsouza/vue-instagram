@@ -12,7 +12,7 @@ onMounted(() => {
             emits("intersect");
         }
     });
-    observer.value.observe(root.value)
+    observer.value.observer(root.value)
 })
 </script>
 
